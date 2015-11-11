@@ -15,7 +15,10 @@ http://pyyaml.org/download/pyyaml/PyYAML-3.09.tar.gz
 https://pypi.python.org/packages/source/a/argparse/argparse-1.1.zip
 https://pypi.python.org/packages/source/p/paramiko/paramiko-1.7.6.zip
 https://pypi.python.org/packages/source/p/pyOpenSSL/pyOpenSSL-0.10.tar.gz
-http://pkgs.fedoraproject.org/repo/pkgs/redis/redis-2.4.13.tar.gz/f8a160f8a6fe7d7e8ebb4c23ff583d71/redis-2.4.13.tar.gz
+
+#Redis refuses to install from here, so I just did "pip install redis". Hopefully that works. Still trying to build this
+#http://pkgs.fedoraproject.org/repo/pkgs/redis/redis-2.4.13.tar.gz/f8a160f8a6fe7d7e8ebb4c23ff583d71/redis-2.4.13.tar.gz
+
 https://pypi.python.org/packages/source/t/txAWS/txAWS-0.0.1.tar.gz
 
 #Couldn't find the exact package so I chose the first one I saw regarding txredis
@@ -23,10 +26,11 @@ https://pypi.python.org/packages/source/t/txredis/txredis-2.3.tar.gz
 https://pypi.python.org/packages/source/E/Epsilon/Epsilon-0.6.0.tar.gz
 https://pypi.python.org/packages/source/h/html5lib/html5lib-0.90.tar.gz
 
-#Chose the latest one regarding Bleach since it has a unique name. Couldn't find1.0.4 either so I chose the latest one.
+#Chose the latest one regarding Bleach since it has a unique name. Couldn't find 1.0.4 either so I chose the latest one.
 https://pypi.python.org/packages/source/b/bleach/bleach-1.4.2.tar.gz
 https://pypi.python.org/packages/source/s/simplejson/simplejson-2.2.1.tar.gz
-https://pypi.python.org/packages/source/p/python-cjson/python-cjson-1.1.0.tar.gzhttps://pypi.python.org/packages/source/p/python-memcached/python-memcached-1.47.tar.gz
+https://pypi.python.org/packages/source/p/python-cjson/python-cjson-1.1.0.tar.gz
+https://pypi.python.org/packages/source/p/python-memcached/python-memcached-1.47.tar.gz
 #No idea what factlib is, but it goes on this line.
 https://pypi.python.org/packages/source/f/faulthandler/faulthandler-2.1.tar.gz
 https://pypi.python.org/packages/source/d/django-redis-sessions/django-redis-sessions-0.2.3.tar.gz
