@@ -1,3 +1,3 @@
-https://s3.amazonaws.com/canvas-public-artifacts/tornado-2.3.tar.gz
-https://s3.amazonaws.com/canvas-public-artifacts/redis-2.4.13.tar.gz
-https://s3.amazonaws.com/canvas-public-artifacts/python-dateutil-1.5.tar.gz
+https://pypi.python.org/packages/source/t/tornado/tornado-2.3.tar.gz
+http://pkgs.fedoraproject.org/repo/pkgs/redis/redis-2.4.13.tar.gz/f8a160f8a6fe7d7e8ebb4c23ff583d71/redis-2.4.13.tar.gz
+https://pypi.python.org/packages/source/p/python-dateutil/python-dateutil-1.5.tar.gz

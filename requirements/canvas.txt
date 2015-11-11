@@ -4,38 +4,37 @@
 
 # Old sentry client.
 # used to be --requirement=sentry.txt, but the sentry box is running a newer version for now.
-https://s3.amazonaws.com/canvas-public-artifacts/distribute-0.6.19.tar.gz
-https://s3.amazonaws.com/canvas-public-artifacts/django-indexer-0.3.0.tar.gz
-https://s3.amazonaws.com/canvas-public-artifacts/django-templatetag-sugar-0.1.tar.gz
-https://s3.amazonaws.com/canvas-public-artifacts/django-paging-0.2.4.tar.gz
-https://s3.amazonaws.com/canvas-public-artifacts/django-sentry-1.8.6.2.tar.gz
+https://pypi.python.org/packages/source/d/distribute/distribute-0.6.19.tar.gz
+https://pypi.python.org/packages/source/d/django-indexer/django-indexer-0.3.0.tar.gz
+https://pypi.python.org/packages/source/d/django-templatetag-sugar/django-templatetag-sugar-0.1.tar.gz
+https://pypi.python.org/packages/source/d/django-paging/django-paging-0.2.4.tar.gz
+https://pypi.python.org/packages/source/d/django-sentry/django-sentry-1.8.6.2.tar.gz
 
+http://pkgs.fedoraproject.org/repo/pkgs/python-BeautifulSoup/BeautifulSoup-3.1.0.1.tar.gz/bcffef3eda6e06e6d1e18c06a9db8a24/BeautifulSoup-3.1.0.1.tar.gz
+http://pyyaml.org/download/pyyaml/PyYAML-3.09.tar.gz
+https://pypi.python.org/packages/source/a/argparse/argparse-1.1.zip
+https://pypi.python.org/packages/source/p/paramiko/paramiko-1.7.6.zip
+https://pypi.python.org/packages/source/p/pyOpenSSL/pyOpenSSL-0.10.tar.gz
+http://pkgs.fedoraproject.org/repo/pkgs/redis/redis-2.4.13.tar.gz/f8a160f8a6fe7d7e8ebb4c23ff583d71/redis-2.4.13.tar.gz
+https://pypi.python.org/packages/source/t/txAWS/txAWS-0.0.1.tar.gz
 
-https://s3.amazonaws.com/canvas-public-artifacts/BeautifulSoup-3.1.0.1.tar.gz
-https://s3.amazonaws.com/canvas-public-artifacts/PyYAML-3.09.tar.gz
-https://s3.amazonaws.com/canvas-public-artifacts/distribute-0.6.19.tar.gz
-https://s3.amazonaws.com/canvas-public-artifacts/argparse-1.1.zip
-https://s3.amazonaws.com/canvas-public-artifacts/paramiko-1.7.6.zip
-https://s3.amazonaws.com/canvas-public-artifacts/pyOpenSSL-0.10.tar.gz
-https://s3.amazonaws.com/canvas-public-artifacts/redis-2.4.13.tar.gz
-https://s3.amazonaws.com/canvas-public-artifacts/txAWS-0.0.1.tar.gz
-https://s3.amazonaws.com/canvas-public-artifacts/deldotdr-txRedis-11b6068.tar.gz
-https://s3.amazonaws.com/canvas-public-artifacts/Epsilon-0.6.0.tar.gz
+#Couldn't find the exact package so I chose the first one I saw regarding txredis
+https://pypi.python.org/packages/source/t/txredis/txredis-2.3.tar.gz
+https://pypi.python.org/packages/source/E/Epsilon/Epsilon-0.6.0.tar.gz
+https://pypi.python.org/packages/source/h/html5lib/html5lib-0.90.tar.gz
 
-https://s3.amazonaws.com/canvas-public-artifacts/html5lib-0.90.zip
-https://s3.amazonaws.com/canvas-public-artifacts/canvasnetworks-bleach-v1.0.4-14-gc8f5835.tar.gz
-https://s3.amazonaws.com/canvas-public-artifacts/simplejson-2.2.1.tar.gz
-https://s3.amazonaws.com/canvas-public-artifacts/python-cjson-1.0.5.tar.gz
-https://s3.amazonaws.com/canvas-public-artifacts/python-memcached-1.47.tar.gz
-https://s3.amazonaws.com/canvas-public-artifacts/factlib-1.0.tar.gz
-https://s3.amazonaws.com/canvas-public-artifacts/faulthandler-2.1.tar.gz
-https://s3.amazonaws.com/canvas-public-artifacts/django-redis-sessions-0.2.3.tar.gz
-https://s3.amazonaws.com/canvas-public-artifacts/urbanairship-0.3.tar.gz
+#Chose the latest one regarding Bleach since it has a unique name. Couldn't find1.0.4 either so I chose the latest one.
+https://pypi.python.org/packages/source/b/bleach/bleach-1.4.2.tar.gz
+https://pypi.python.org/packages/source/s/simplejson/simplejson-2.2.1.tar.gz
+https://pypi.python.org/packages/source/p/python-cjson/python-cjson-1.1.0.tar.gzhttps://pypi.python.org/packages/source/p/python-memcached/python-memcached-1.47.tar.gz
+#No idea what factlib is, but it goes on this line.
+https://pypi.python.org/packages/source/f/faulthandler/faulthandler-2.1.tar.gz
+https://pypi.python.org/packages/source/d/django-redis-sessions/django-redis-sessions-0.2.3.tar.gz
+https://pypi.python.org/packages/source/u/urbanairship/urbanairship-0.3.tar.gz
 
-https://s3.amazonaws.com/canvas-public-artifacts/requests-0.14.1.tar.gz
-https://s3.amazonaws.com/canvas-public-artifacts/rauth-0.4.16.tar.gz
+#My preference for requests
+https://pypi.python.org/packages/source/r/requests/requests-2.8.1.tar.gz
+https://pypi.python.org/packages/source/r/rauth/rauth-0.4.16.tar.gz
 
-# Because this is under such active development, reuploading to S3 is a pain.
-# We already rely on GitHub for deployment and bootstrapping.
 https://github.com/aehlke/django-cachecow/archive/5457451e4c50ace00c8e07466654b828ae941632.zip
 

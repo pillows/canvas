@@ -1,16 +1,16 @@
 --requirement=nginx.txt
 
-https://s3.amazonaws.com/canvas-public-artifacts/Django-1.2.7.tar.gz
-https://s3.amazonaws.com/canvas-public-artifacts/South-0.7.3.tar.gz
+https://pypi.python.org/packages/source/D/Django/Django-1.2.7.tar.gz
+http://pkgs.fedoraproject.org/repo/pkgs/Django-south/south-0.7.3.tar.gz/693a2a7a57b29c49bc177fe951e04767/south-0.7.3.tar.gz
 
 # When we're specifying URLs like this, the order of dependencies matters.
 # django-nose depends on nose, so keep nose first.
 #
-https://s3.amazonaws.com/canvas-public-artifacts/nose-1.1.2.tar.gz
-https://s3.amazonaws.com/canvas-public-artifacts/django-nose-0.1.3.tar.gz
-https://s3.amazonaws.com/canvas-public-artifacts/py-bcrypt-0.2.tar.gz
-https://s3.amazonaws.com/canvas-public-artifacts/django-bcrypt.tar.gz
-https://s3.amazonaws.com/canvas-public-artifacts/gunicorn-0.16.1.tar.gz
-https://s3.amazonaws.com/canvas-public-artifacts/dnspython-1.9.4.tar.gz
-https://s3.amazonaws.com/canvas-public-artifacts/pydkim-0.3.tar.gz
 
+https://pypi.python.org/packages/source/n/nose/nose-1.1.2.tar.gz
+https://pypi.python.org/packages/source/d/django-nose/django-nose-0.1.3.tar.gz
+http://pkgs.fedoraproject.org/repo/pkgs/py-bcrypt/py-bcrypt-0.2.tar.gz/231565f5e5d0389c6f3fe4bb6fc4d9f1/py-bcrypt-0.2.tar.gz
+https://pypi.python.org/packages/source/d/django-bcrypt/django-bcrypt-0.9.2.tar.gz
+https://pypi.python.org/packages/source/g/gunicorn/gunicorn-0.16.1.tar.gz
+http://pkgs.fedoraproject.org/repo/pkgs/python-dns/dnspython-1.9.4.tar.gz/8a89b7865251c4e9d8ec2f8cc9f8cd78/dnspython-1.9.4.tar.gz
+https://pypi.python.org/packages/source/p/pydkim/pydkim-0.3.tar.gz

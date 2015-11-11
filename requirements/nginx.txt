@@ -1,3 +1,2 @@
-https://s3.amazonaws.com/canvas-public-artifacts/MarkupSafe-0.15.tar.gz
-https://s3.amazonaws.com/canvas-public-artifacts/Jinja2-2.6.tar.gz
-
+https://pypi.python.org/packages/source/M/MarkupSafe/MarkupSafe-0.15.tar.gz
+https://pypi.python.org/packages/source/J/Jinja2/Jinja2-2.6.tar.gz
