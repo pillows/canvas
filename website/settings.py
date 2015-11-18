@@ -14,6 +14,8 @@ PROJECT = 'canvas'
 
 CANVAS_SUB_SITE = '/'
 
+SOLR_HOST = 'http://[INSERT IP/DOMAIN HERE]:8983/solr'
+
 if PRODUCTION:
     DOMAIN = "example.com"
     SELF_PORT = 9000
