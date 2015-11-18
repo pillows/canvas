@@ -16,7 +16,7 @@ class SolrConnection(threading.local):
         if self._connection:
             return self._connection
         else:
-            return solr.Solr(settings.SOLR_HOST + '/' + self.core)
+            return solr.Solr(settings.SOLR_HOST)
 
 valid_core_names = ['comment', 'group']
 
