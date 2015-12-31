@@ -7,45 +7,7 @@ from django.db import models
 class Migration(DataMigration):
 
     def forwards(self, orm):
-        unsubscribe_list = [
-            "rawrchinkattack@aim.com",
-            "joeshmoe11@live.com",
-            "insanesimian@hotmail.com",
-            "xx.andy.xx@live.com",
-            "wall.mike@gmail.com",
-            "sheepeeshaun@hotmail.com",
-            "philipp.kunzlik@gmail.com",
-            "nekobwaah@gmail.com",
-            "matt.prodger@bbc.co.uk",
-            "mateus.souzaaa@gmail.com",
-            "ixssam@live.com",
-            "grantb2@bellsouth.net",
-            "dominicmacinnes@mail.com",
-            "ashr.636@gmail.com",
-            "wcgortel@gmail.com",
-            "vincentvanbuul@gmail.com",
-            "ttunguz@Gmail.com",
-            "tivoli.trull@gmail.com",
-            "thecolor12@gmail.com",
-            "temp@xl55.com",
-            "semocniarehtfi@gmail.com",
-            "sapipollo@hotmail.com",
-            "rothchild@gmail.com",
-            "query@benfox.com.au",
-            "novaroma@live.com",
-            "nhi_102@hotmail.com",
-            "jerebear@mail.com",
-            "hattrick89@hotmail.com",
-            "entangledstate@gmail.com",
-            "david@individual8.com",
-            "charles.bou@hotmail.com",
-            "carblos@gmail.com",
-            "Aroth999@gmail.com",
-            "agneseatslega@gmail.com",
-            "abbilotti@kowalenkogroup.com",
-            "03presserkun@gmail.com",
-            "pri_2000@hotmail.com",
-        ]
+        unsubscribe_list = []
         
         for email in unsubscribe_list:
             print email
